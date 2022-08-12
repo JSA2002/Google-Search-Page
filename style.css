@@ -26,6 +26,9 @@
  text-align: center;
  margin: auto;
 }
+#searching{
+    justify-content: center;
+}
 #searchbar{
     border: 1px solid grey;
     border-radius: 45px;
@@ -126,15 +129,20 @@ a{
 @media(max-width:400px){
     #searchbar{
         width: 350px;
+        max-width: 350px;
         margin-bottom: 30px;
     }
     #searchbar input{
         width: 230px;
+        max-width: 230px;
     }
     #voice-search-bar{
         display: none;
     }
     .web{
-        margin: 0px 40px;
+        margin: 0px 30px;
+    }
+    #box{
+        width: 300px;
     }
 }
